@@ -99,10 +99,10 @@
       <input type="email" id="email" name="email" placeholder="john@gmail.com" required>
 
       <label for="phone">Phone Number</label>
-      <input type="tel" id="phone" name="phone" placeholder="e.g. +27675342314" required>
+      <input type="text" id="phone" name="phone" placeholder="e.g. +27675342314" required>
 
-      <label for="password">Password</label>
-      <input type="password" id="password" name="password" placeholder="Create a password" required>
+      <label for="pswd">Password</label>
+      <input type="password" id="password" name="pswd" placeholder="Create a password" required>
 
       <label for="confirmPassword">Confirm Password</label>
       <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" required>

@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $fullname = $conn->real_escape_string($_POST['fullname']);
     $email = $conn->real_escape_string($_POST['email']);
     $phone = $conn->real_escape_string($_POST['phone']);
-    $password = password_hash($_POST['password'], PASSWORD_DEFAULT); // secure hashing
+    $password = password_hash($_POST['pswd'], PASSWORD_DEFAULT); // secure hashing
 
     // File Upload
     $uploadDir = "uploads/";
